@@ -1,0 +1,36 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: azure;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#currentWeather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(210, 255, 255, 0.869);
+}
+
+#nextWeathers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#weatherSample {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
